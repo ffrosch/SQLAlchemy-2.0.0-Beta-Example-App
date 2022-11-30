@@ -17,5 +17,8 @@ Last but not least `__mapper_args__` supplies a mechanism to automatically updat
 
 ## Usage
 
-Simply run `python app.py` from your commandline.
-This will run the commands in the `if __name__ == "__main__":` section and print out the results.
+1. Clone the repo, e.g. with the Github-CLI: `gh repo clone ffrosch/SQLAlchemy-2.0.0-Beta-Example-App`
+1. Create a virtual environment for Python within the cloned repo: `python -m venv env`
+1. Activate the virtual environment: `source env/bin/activate`
+1. Install dependencies: `pip install -r requirements.txt`
+1. Run `python app.py`. This will run the commands in the `if __name__ == "__main__":` section and print the results.
